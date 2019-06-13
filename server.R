@@ -26,10 +26,11 @@ score.sentiment<-function(sentences, pos.words, neg.words, .progress='none')
   return(scores.df)
 }
 
-consumer_key <- "CzUJcMqojfMOEczNBmN47QI7x"
-consumer_secret <- "IbN82fBTOrcmxgS42yepcvez3as7G4fLZsHVCd4Mutv8bs5z8j"
-access_token <- "4845037632-M9vy2bZTQuI1RInEECFu4572WZTAGK3z5D95h7J"
-access_secret <- "l9Vhang7KluC1ddPFgKDNrwBgFeSBwWWINpejcaDgySEa"
+## Remove the ## after inserting your own keys
+##consumer_key <- "C*******************************x"
+##consumer_secret <- "I***************j"
+##access_token <- "4************************J"
+##access_secret <- "l*****************************a"
 
 setup_twitter_oauth(consumer_key, consumer_secret, access_token, access_secret)
 
