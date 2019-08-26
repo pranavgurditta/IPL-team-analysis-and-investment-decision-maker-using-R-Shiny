@@ -1,4 +1,4 @@
-Create an application in R using Shiny and do text based sentiment analysis and IPL team analysis.
+Create an application in R using R-Shiny and do text based sentiment analysis of IPL team's tweets and use it to check whether or not a sponsor should invest in the IPL team or not.
 
 The problem is to make an application in R which does sentiment analysis using tweets from R
 following a menu based approach to let the user choose to do text based sentiment analysis or check
